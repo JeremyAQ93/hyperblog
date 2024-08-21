@@ -1,0 +1,19 @@
+/* style.css */
+
+/* Selects the body element and sets its background color and font family */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Selects the h1 element and sets its color and font size */
+h1 {
+    color: #00698f;
+    font-size: 36px;
+}
+
+/* Selects the p element and sets its font size and line height */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
