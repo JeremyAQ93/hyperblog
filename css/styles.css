@@ -1,7 +1,7 @@
 /* Sets the background gradient and font family for the body */
 body {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* New gradient with warm tones */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* Cool gradient with blue and teal tones */
+    font-family: 'Roboto', sans-serif; /* Updated font family */
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,90 +15,54 @@ body {
 /* Centers the content within a container and adds padding and shadow */
 .container {
     background-color: rgba(255, 255, 255, 0.9); /* Lighter background with more opacity */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increased padding */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
     text-align: center;
 }
 
 /* Styles the h1 element with a different color and adds a subtle text shadow */
 h1 {
-    color: #ff7e5f; /* Matches the gradient start color */
-    font-size: 48px;
-    text-shadow: 2px 2px 4px rgba(255, 183, 139, 0.3); /* Subtle shadow with a light tone */
+    color: #4a90e2; /* Matches the gradient start color */
+    font-size: 56px; /* Larger font size */
+    font-family: 'Roboto', sans-serif; /* Consistent with body font */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
     margin-bottom: 20px;
 }
 
 /* Adjusts the paragraph styling for better readability */
 p {
-    font-size: 20px;
+    font-size: 22px; /* Larger font size */
     line-height: 1.8;
     margin: 0;
     color: #333333; /* Matches body text color */
+    font-family: 'Roboto', sans-serif; /* Consistent with body font */
 }
 
 /* Styles the call-to-action button */
 .cta-button {
-    background-color: #feb47b; /* Matches the gradient end color */
+    background-color: #50e3c2; /* Matches the gradient end color */
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
+    padding: 12px 24px; /* Increased padding */
+    border-radius: 8px; /* More rounded corners */
+    font-size: 20px; /* Larger font size */
+    font-family: 'Roboto', sans-serif; /* Consistent with body font */
     cursor: pointer;
-    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
 /* Changes the button color on hover */
 .cta-button:hover {
-    background-color: #ff7e5f; /* Inverts the gradient colors for the hover effect */
+    background-color: #4a90e2; /* Inverts the gradient colors for the hover effect */
 }
 
 /* Styles the footer with a smaller font size */
 footer {
     background-color: rgba(51, 51, 51, 0.8); /* Darker footer background */
-    padding: 10px 0;
+    padding: 12px 0; /* Increased padding */
     text-align: center;
-    font-size: 14px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #ffffff;
-}
-
-/* Styles the image with rounded corners and shadow */
-.sample-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-/* Styles the call-to-action button */
-.cta-button {
-    background-color: #feb47b;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Changes the button color on hover */
-.cta-button:hover {
-    background-color: #ff7e5f;
-}
-
-/* Styles the footer with a smaller font size */
-footer {
-    background-color: rgba(51, 51, 51, 0.8);
-    padding: 10px 0;
-    text-align: center;
-    font-size: 14px;
+    font-size: 16px; /* Larger font size */
     position: absolute;
     bottom: 0;
     width: 100%;
