@@ -1,6 +1,6 @@
 /* Sets the background gradient and font family for the body */
 body {
-    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* Cool gradient with blue and teal tones */
+    background: linear-gradient(135deg, #3204bd, #5ce350); /* Cool gradient with blue and teal tones */
     font-family: 'Roboto', sans-serif; /* Updated font family */
     margin: 0;
     padding: 0;
